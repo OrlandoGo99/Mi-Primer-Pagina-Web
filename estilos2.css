@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'New Tegomin', serif; /*Tipografia*/
+}
+body{
+	font-family: 'Frank Ruhl Libre', serif;
+	text-align: center;
+}
+
+/*Bordes para imagen*/
+/*img{  
+    border: 3px dashed tomato;
+}*/
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(104, 71, 0);
+    padding: 20px;
+}
+/*Confi mas especifica de la imagen*/
+/*.centro img{
+    width: 60vw;
+    height: 100vh;
+}*/
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 36px;
+    font-size: 36px;
+    font-weight: 800;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/eidlFWEMajNjzNEmqT/giphy.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+}
+
+/*Botones*/
+.button {
+    border: none;
+    color: rgb(5, 5, 5);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 20px;
+  }  
+.button1 {
+    background-color: rgb(204, 192, 28); 
+    color: black; 
+    border: 2px solid #4caf4f00;
+  }
+  
+  .button1:hover {
+    background-color: #94cf34;
+    color: rgb(209, 13, 193);
+  }
+ 

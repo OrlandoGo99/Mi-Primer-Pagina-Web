@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./Imgenes_login/Foto\ de\ cafeshop.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+/*---Caja del login---*/
+.login-box{
+    width: 320px;
+    height: 460px;
+    background: rgba(246, 221, 204, 0.897);
+    color: rgb(14, 12, 12);
+    top: 10%;
+    position: absolute;
+    transform: translate(190%, 20%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+}
+/*---Imagen de la caja del login---*/
+.login-box .avatar{
+    width: 120px;
+    height: 120;
+    position: absolute;
+    transform: translate(80%, -30%);
+    top: -40px;
+    left: calc(50% - 50%);
+}
+/*---H1 de la caja login---*/
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+/*---H3 de la caja login---*/
+.login-box h3{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 17px;
+}
+/*---Area de Label usuario y contraceña---*/
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+/*---area de input (letras transparentes)---*/
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(8, 8, 8);
+    font-size: 16px;
+}
+/*---Boton login--*/
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(240, 178, 122 );
+    font-size: 18px;
+    border-radius: 20px;
+}
+/*---Enlaces---*/
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(31, 26, 26);
+}
+
+.login-box a:hover{
+    color: rgba(202, 157, 6, 0.986);
+}
+
+/*---animacion (con burbujas)---*/
+
+.burbuja{
+    border-radius: 50%;
+    background: rgba(182, 119, 1, 0.89);
+    opacity: .3;
+
+    position: absolute;
+    bottom: 0;
+    
+    
+
+    animation: burbujas 4s linear infinite;
+}
+.burbuja:nth-child(1){
+    width: 40px;
+    height: 40px;
+    left: 5%;
+    animation-duration: 3s;
+
+}
+.burbuja:nth-child(2){
+    width: 30px;
+    height: 30px;
+    left: 35%;
+    animation-duration: 4s;
+
+}
+.burbuja:nth-child(3){
+    width: 60px;
+    height: 60px;
+    left: 65%;
+    animation-duration: 5s;
+
+}
+.burbuja:nth-child(4){
+    width: 20px;
+    height: 20px;
+    left: 20%;
+    animation-duration: 6s;
+
+}
+.burbuja:nth-child(5){
+    width: 24px;
+    height: 24px;
+    left: 35%;
+    animation-duration: 7s;
+
+}
+.burbuja:nth-child(6){
+    width: 34px;
+    height: 34px;
+    left: 75%;
+    animation-duration: 8s;
+
+}
+.burbuja:nth-child(7){
+    width: 44px;
+    height: 44px;
+    left: 85%;
+    animation-duration: 9s;
+
+}
+.burbuja:nth-child(8){
+    width: 54px;
+    height: 54px;
+    left: 95%;
+    animation-duration: 10s;
+
+}
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
